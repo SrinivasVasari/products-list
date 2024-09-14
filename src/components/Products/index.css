@@ -116,6 +116,16 @@
     }
 }
 
+@media screen and (orientation: portrait) {
+    .card {
+        flex: 1 0 40%;
+        max-width: 48%;
+    }
+    .card_image img {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .filter-menu {
         margin: 2rem 0rem;
@@ -151,7 +161,7 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .card_image img {
         width: 100%;
         object-fit: inherit;
